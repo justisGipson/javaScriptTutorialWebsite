@@ -1,0 +1,63 @@
+#grad {
+    height: 100%;
+    background-image: linear-gradient(to bottom right, skyblue, lightgray);
+}
+
+h1 {
+    color: darkslategray;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 32pt;
+    padding: -2rem;
+
+}
+
+nav{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 16pt;
+}
+
+body, h2, h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14pt;
+    top: 75px;
+}
+
+h2{
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
+
+}
+
+.intro {
+    left: 55px;
+    top: 6rem;
+    position: absolute;
+    margin: 1em;
+    
+}
+
+.topnav {
+    background-color: #01070a;
+    /* overflow: hidden; */
+    position: fixed;
+    height: 60px;
+    align-content: flex-end;
+    border-radius: 100px;
+}
+
+.topnav a:hover {
+    color: purple;
+}
+
+.topnav a {
+    float: left;
+    color: #537177;
+    text-align: center;
+    padding: 30px 20px;
+    text-decoration-line: underline;
+}
