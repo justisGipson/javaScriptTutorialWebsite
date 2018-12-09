@@ -61,7 +61,7 @@ p, article {
 
 .topnav {
     background-color: hsla(184, 27%, 24%, 50%);
-    /* overflow: hidden; */
+    overflow: hidden;
     position: relative;
     height: 60px;
     width: 100vw;
@@ -92,7 +92,8 @@ p, article {
     /* overflow-x: hidden; */
     padding: 60px 10px 50px 30px;    
     position: fixed;
-    background-color: hsla(184, 27%, 24%, 50%);
+    background-color: hsla(206, 28%, 71%, 40%);
+    border-radius: 35px;
 }
 
 a {
@@ -104,7 +105,7 @@ a {
 }
 
 .sidenav a{
-    color: #22BCF8;
+    color: #907A53;
 }
 
 .fa a:hover {
