@@ -95,12 +95,21 @@ p, article {
     background-color: hsla(184, 27%, 24%, 50%);
 }
 
+a {
+    text-decoration: none;
+}
+
 .sidenav a:hover{
     color: #349ACB;
 }
 
 .sidenav a{
     color: #22BCF8;
+}
+
+.fa a:hover {
+    opacity: 70%;
+    color: #3769AC;
 }
 
 footer {
