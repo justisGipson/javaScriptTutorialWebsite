@@ -1,26 +1,41 @@
+/* Found a pacific northwest color theme from Picular! */
+/* Hope you enjoy it! */
+
+html {
+    height: 100%;
+}
+/* this is strictly the background gradient*/
 #grad {
     height: 100%;
-    background-image: linear-gradient(to bottom right, skyblue, lightgray);
-}
+    margin: 0;
+    background-image: linear-gradient(to bottom right, #CFE3E9, #7D8290);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
+} 
+
+/* for the arrow function looking title, ends at the bottom of the page, and it's all animated! */
 h1 {
-    color: darkslategray;
+    color: #D57936;
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: bold;
     font-size: 32pt;
-    padding: -2rem;
-
+    top: .25rem; 
 }
 
-nav{
+nav, .sidenav{
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 16pt;
+}
+
+body {
+    width: 750px;
+    
 }
 
 body, h2, h3 {
     font-family: 'Open Sans', sans-serif;
     font-size: 14pt;
-    top: 75px;
 }
 
 h2{
@@ -30,34 +45,66 @@ h2{
 p {
     font-family: 'Open Sans', sans-serif;
     font-size: 12pt;
-
 }
 
 .intro {
+    color: #515E1B;
     left: 55px;
     top: 6rem;
-    position: absolute;
+    align-content: center;
     margin: 1em;
+
     
 }
 
 .topnav {
-    background-color: #01070a;
+    background-color: hsla(184, 27%, 24%, 50%);
     /* overflow: hidden; */
-    position: fixed;
+    position: relative;
     height: 60px;
+    width: 215%;
     align-content: flex-end;
-    border-radius: 100px;
+    border-radius: 35px;
 }
 
 .topnav a:hover {
-    color: purple;
+    color: #349ACB;
 }
 
 .topnav a {
     float: left;
-    color: #537177;
+    color: #22BCF8;
     text-align: center;
     padding: 30px 20px;
-    text-decoration-line: underline;
+    text-decoration-line: none;
+}
+
+.sidenav {
+    top: 40vh;
+    left: 80vw;
+    height: 30%;
+    width: 12%;
+    z-index: 1;
+    /* overflow-x: hidden; */
+    padding: 60px 10px 50px 30px;    
+    position: fixed;
+    background-color: hsla(184, 27%, 24%, 50%);
+}
+
+.sidenav a:hover{
+    color: #349ACB;
+}
+
+.sidenav a{
+    color: #22BCF8;
+}
+
+footer {
+    text-align: center;
+    left: 0;
+    color: #9AB9CC;
+    background-color: hsla(184, 27%, 24%, 50%);
+    height: 35px;
+    width: 100%;
+    position: absolute;
 }

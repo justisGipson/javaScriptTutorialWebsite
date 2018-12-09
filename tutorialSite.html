@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 
 <html id='grad'> <!-- background gradient -->
+    
     <head>
         <title>Web Tutorial</title>
         <!-- link css stylesheet and import fonts to be used -->
         <link rel='stylesheet' type='text/css' href='tutorialSite.css'>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300,300i,700" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
     </head>
-    <h1>JavaScript Tutorial</h1>
+    <h1 class="animated pulse">const JavaScriptTutorial = () => { </h1>
     <!-- NAV BAR TIME! -->
     <nav>
-        <div class="topnav">
+        <div class="animated pulse topnav">
             <!-- <a class="active" href="#home">Home</a> -->
             <a href="#functions">Functions</a>
             <a href="#objects">Objects</a>
@@ -20,25 +22,65 @@
             <a href="#conditionals">Conditionals</a>
         </div>
     </nav>
-    <h2 class="intro">Let's walkthrough some fundamental JavaScript stuff...</h2>
+    <br>
+
+    <!-- top of page stuff with animation -->
+    <h2 class="animated pulse intro">Let's walkthrough some fundamental JavaScript stuff... </h2> 
     <body>
-        
+        <!-- sections for explaining all the basic stuff -->
         <br>
+
+        <br>
+
         <h2 class='functions'>Functions...</h2>
-        <p>stuff</p>
+        <pre><code><i>    function</i> neatStuff () {... };</code></pre>
+        <p>A function is a block of code designed to perform a certain task. A JavaScript function is ran when it is called (invoking the function). 
+            A JavaScript function is defined with the <b>function</b> keyword, followed by a name, followed by <b>()</b>. Function names can contain letters, numnbers, and certain symbols.
+            the parentheses may include parameter names separated by commas. The code to be executed is placed inside <b>{}</b>.
+        </p>
+
         <br>
+
+        <br>
+
         <h2 class='objects'>Objects...</h2>
-        <p>Stuff</p>
+        <pre><code><i>    var</i> thisIsAnObject = {... };</code></pre>
+        <p>Objects are containers similar to variables in JavaScript, except they can assign many values to a variable. The values are written as <b>name:value</b> pairs. The <b>name:value</b> pairs in JavaScript objects are called properties. The object properties can be accessed in two different ways. The first is using <b>dot notation</b>; <i>objectName.propertyName</i>. And the second is using <b>bracket notation</b>; <i>objectName["propertyName"]</i>.</p>
+
         <br>
+
+        <br>
+
         <h2 class='arrays'>Arrays...</h2>
-        <p>Stuff</p>
+        <pre><code><i>    var</i> thisIsAnArray = [... ];</code></pre>
+        <p>Arrays in JavaScript are yet another container that are similar to variables. But they can hold more than one value at a time all under a single name, always separated by commas and stored within <b>square brackets</b>. The values can be accessed by referring to an <b>index number</b></index>. The code above in the easiest way to create a JavaScript Array, also referred to as an array literal.</p>
+        <br>
+
         <br>
         <h2 class='forLoops'>For Loops...</h2>
-        <p>stuff</p>
+        <pre><code><i>    for(... ) {... };</i></code></pre>
+        <p></p>
         <br>
         <h2 class='conditionals'>Conditionals...</h2>
         <p>stuff</p>
         <br>
     </body>
+
+    <sidenav class="sidenav"></sidenav>
+    <h1 class="animated pulse">     ...};</h1>
+        <div class="sidenav">
+            <br>
+            <a href="#w3school">W3School</a>
+            <br>
+            <a href="#tricks">Css-tricks</a>
+            <br>
+            <a href="#freecodecamp">FreeCodeCamp</a>
+            <br>
+            <a href="#1150">elevenFifty Academy</a>
+        </div>
+
+    <footer>
+        <p>made by justisGipson--2018</p>
+    </footer>
 
 </html>
