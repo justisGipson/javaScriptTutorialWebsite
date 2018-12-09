@@ -38,11 +38,13 @@ body, h2, h3 {
     font-size: 14pt;
 }
 
-h2{
-    font-weight: 700;
+
+
+section {
+
 }
 
-p {
+p, article {
     font-family: 'Open Sans', sans-serif;
     font-size: 12pt;
 }
@@ -53,8 +55,8 @@ p {
     top: 6rem;
     align-content: center;
     margin: 1em;
-
-    
+    font-weight: 900;
+    font-size: 22pt;
 }
 
 .topnav {
@@ -62,9 +64,11 @@ p {
     /* overflow: hidden; */
     position: relative;
     height: 60px;
-    width: 215%;
+    width: 100vw;
     align-content: flex-end;
-    border-radius: 35px;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+
 }
 
 .topnav a:hover {
