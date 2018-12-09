@@ -40,6 +40,7 @@ body, h2, h3 {
 
 a {
     text-decoration: none;
+    color: #3769AC;
 }
 
 section {
@@ -109,9 +110,9 @@ p, article {
     color: #907A53;
 }
 
-.fa a:hover {
+a:hover {
     opacity: 70%;
-    color: #3769AC;
+    color: #0F8492;
 }
 
 footer {
