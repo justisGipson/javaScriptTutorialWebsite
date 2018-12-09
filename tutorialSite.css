@@ -38,7 +38,9 @@ body, h2, h3 {
     font-size: 14pt;
 }
 
-
+a {
+    text-decoration: none;
+}
 
 section {
 
@@ -95,9 +97,8 @@ p, article {
     background-color: hsla(206, 28%, 71%, 40%);
     border-radius: 35px;
 }
-
-a {
-    text-decoration: none;
+.code{
+    font-size: 12pt;
 }
 
 .sidenav a:hover{

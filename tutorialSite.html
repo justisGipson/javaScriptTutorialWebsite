@@ -31,36 +31,51 @@
     <body>
         <!-- sections for explaining all the basic stuff -->
         <br>
-
-        <h2 class='functions'>Functions...</h2>
-        <pre><code><i>    function</i> neatStuff () {... };</code></pre>
-        <p>A function is a block of code designed to perform a certain task. A JavaScript function is ran when it is called (invoking the function). 
+        <section class="code">
+            <h2 class='functions'>Functions...</h2>
+            <pre><code><i>    function</i> neatStuff () {... };</code></pre>
+            <p>A function is a block of code designed to perform a certain task. A JavaScript function is ran when it is called (invoking the function). 
             A JavaScript function is defined with the <b>function</b> keyword, followed by a name, followed by <b>()</b>. Function names can contain letters, numnbers, and certain symbols.
             the parentheses may include parameter names separated by commas. The code to be executed is placed inside <b>{}</b>.
-        </p>
+            </p>
+        </section>
 
         <br>
-
-        <h2 class='objects'>Objects...</h2>
-        <pre><code><i>    var</i> thisIsAnObject = {... };</code></pre>
-        <p>Objects are containers similar to variables in JavaScript, except they can assign many values to a variable. The values are written as <b>name:value</b> pairs. The <b>name:value</b> pairs in JavaScript objects are called properties. The object properties can be accessed in two different ways. The first is using <b>dot notation</b>; <i>objectName.propertyName</i>. And the second is using <b>bracket notation</b>; <i>objectName["propertyName"]</i>.</p>
-
+        <section class="code">
+            <h2 class='objects'>Objects...</h2>
+            <pre><code><i>    var</i> thisIsAnObject = {... };</code></pre>
+            <p>Objects are containers similar to variables in JavaScript, except they can assign many values to a variable. The values are written as <b>name:value</b> pairs. The <b>name:value</b> pairs in JavaScript objects are called properties. The object properties can be accessed in two different ways. The first is using <b>dot notation</b>; <i>objectName.propertyName</i>. And the second is using <b>bracket notation</b>; <i>objectName["propertyName"]</i>.</p>
+        </section>
         <br>
-
-        <h2 class='arrays'>Arrays...</h2>
-        <pre><code><i>    var</i> thisIsAnArray = [... ];</code></pre>
-        <p>Arrays in JavaScript are yet another container that are similar to variables. But they can hold more than one value at a time all under a single name, always separated by commas and stored within <b>square brackets</b>. The values can be accessed by referring to an <b>index number</b></index>. The code above in the easiest way to create a JavaScript Array, also referred to as an array literal.</p>
+        <section class="code">
+            <h2 class='arrays'>Arrays...</h2>
+            <pre><code><i>    var</i> thisIsAnArray = [... ];</code></pre>
+            <p>Arrays in JavaScript are yet another container that are similar to variables. But they can hold more than one value at a time all under a single name, always separated by commas and stored within <b>square brackets</b>. The values can be accessed by referring to an <b>index number</b></index>. The code above in the easiest way to create a JavaScript Array, also referred to as an array literal.</p>
+        </section>
         <br>
-
-        <h2 class='forLoops'>For Loops...</h2>
-        <pre><code><i>    for(... ) {... };</i></code></pre>
-        <p></p>
+        <section class="code">
+            <h2 class='loops'>Loops...</h2>
+            <p>Loops are especially handy when you want to run the same code over and over, each time resulting in a different value. There are many differnt kinds of loops. There are;
+            <b>for loops:</b>  which loops through a block of code a number of times.         <pre><code><i>    for(... ) {...<br />   };</i></code></pre>
+            <b>for in loops:</b>  which loops through the properties of an object.<pre><code><i>    for(... in... ) {...<br />   };</i></code></pre>
+            <b>while loops:</b>  which execute a block of code as long as a specified condition is true. <pre><code><i>    while(condition) {...<br />   };</i></code></pre>
+            <b>do/while loops:</b>  these are a variant of the while loop. This loop will execute the code block once, before checking if the condition is true, then it will repeat as long as the condition is true. <pre><code><i>    do {...<br />   }<br />   while(condition);</i></code></pre>
+            </p>
+        </section>
         <br>
-        <h2 class='conditionals'>Conditionals...</h2>
-        <p>stuff</p>
+        <section class="code">
+            <h2 class='conditionals'>Conditional Statements...</h2>
+            <p>Often when code is written, you want to perforn different actions for different decisions. You can use conditional statements in your code to do this. In JavaScript there are the following types of conditional statements;
+            <b>if statements:</b>  these are used to specify a block of code to be executes, if a specified condition is true. <pre><code><i>    if (condition) {...<br />  };</i></code></pre>
+            <b>else statement:</b>  this is used to specify a block of code to be executed , if the same condition is false. <pre><code><i>    if (condition) {...<br />    } else {...<br />  };</i></code></pre>
+            <b>else if:</b>  this is used to specify a new condition if the first condition is false. <pre><code><i>    if (condition1){...<br />    } else if (condition2) {...<br />    } else {...<br />  };</i></code></pre>
+            <b>switch statements:</b>  this is a different kind of conditional statement compared to the if/else if/else statements. The switch expression is evaluated once, the value of each expression is compared with the values of each case, if there is a match the associated block of code is executed. A <b>break</b> keyword is used to break out of the switch block once a condition is met (these can save a lot of time because it ignores the execution of the rest of the code in the switch block), it is not necessary to break the last case in a switch block, the block ends there anyway. Also a <b>default</b> keyword is used to specify the code to run if there is no match. The default case does not have to the last case in a switch block, if it's not the last case it must be followed with a break keyword. <pre><code><i> switch (... ) {<br />  case: <br />  break; <br />  case: <br />  break;<br />  default: <br />};</i></code></pre>
+            </p>
+        </section>
         <br>
+        <p> And thats about it! For more info on Javascript, check out the links in the sidebar and the article linked at the bottom of the page.</p>
     </body>
-
+<!-- fixed sidebar with educational links -->
     <sidenav class="sidenav"></sidenav>
     <h1 class="animated pulse">     };</h1>
         <div class="sidenav">
@@ -75,7 +90,10 @@
             <br>
             <a href="https://www.elevenfifty.org/" target="blank">elevenFifty Academy</a>
         </div>
-
+        <article><a href="https://blog.indorse.io/indorse-javascript-coding-752877ad3524" target="blank"><b>Link</b></a>
+            <p> And lastly here's a great article on some of the top JavaScript resources, from <a href="https://medium.com">Medium</a> its includes articles, videos, and GitHub repositories.</p>
+        </article>
+<!-- footer with icon that links to my github -->
     <footer>
         <p>made by justisGipson--2018<a href="https://github.com/justisGipson" target="blank" class="fab fa-github"></a>
         </p>
