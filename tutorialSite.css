@@ -43,8 +43,9 @@ a {
     color: #3769AC;
 }
 
-section {
-
+#sideBarTitle {
+    color: #515E1B;
+    font-weight: bolder;
 }
 
 p, article {
@@ -79,6 +80,7 @@ p, article {
 }
 
 .topnav a {
+    font-weight: bold;
     float: left;
     color: #22BCF8;
     text-align: center;
@@ -87,6 +89,7 @@ p, article {
 }
 
 .sidenav {
+    font-weight: bold;
     top: 40vh;
     left: 80vw;
     height: 30%;
@@ -110,7 +113,7 @@ p, article {
     color: #907A53;
 }
 
-a:hover {
+.fa a:hover {
     opacity: 70%;
     color: #0F8492;
 }

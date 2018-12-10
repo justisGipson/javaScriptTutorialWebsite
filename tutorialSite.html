@@ -34,9 +34,9 @@
         <section class="code">
             <a id="functions"></a>
             <h2 class='functions'>Functions...</h2>
-            <pre><code><i>    function</i> neatStuff () {... };</code></pre>
-            <p>A function is a block of code designed to perform a certain task. A JavaScript function is ran when it is called (invoking the function). 
-            A JavaScript function is defined with the <b>function</b> keyword, followed by a name, followed by <b>()</b>. Function names can contain letters, numnbers, and certain symbols.
+            <pre><code><i>    function</i> neatStuff () {code block};</code></pre>
+            <p>A function is a block of code designed to perform a certain task. A JavaScript function is run when it is called (invoking the function). 
+            A JavaScript function is defined with the <b>function</b> keyword, followed by a name, followed by <b>()</b>. Function names can contain letters, numbers, and certain symbols.
             the parentheses may include parameter names separated by commas. The code to be executed is placed inside <b>{}</b>.
             </p>
         </section>
@@ -45,25 +45,25 @@
         <section class="code">
             <a id="objects"></a>
             <h2 class='objects'>Objects...</h2>
-            <pre><code><i>    var</i> thisIsAnObject = {... };</code></pre>
+            <pre><code><i>    var</i> thisIsAnObject = {key:value, key:value...};</code></pre>
             <p>Objects are containers similar to variables in JavaScript, except they can assign many values to a variable. The values are written as <b>name:value</b> pairs. The <b>name:value</b> pairs in JavaScript objects are called properties. The object properties can be accessed in two different ways. The first is using <b>dot notation</b>; <i>objectName.propertyName</i>. And the second is using <b>bracket notation</b>; <i>objectName["propertyName"]</i>.</p>
         </section>
         <br>
         <section class="code">
             <a id="array"></a>
             <h2 class='arrays'>Arrays...</h2>
-            <pre><code><i>    var</i> thisIsAnArray = [... ];</code></pre>
-            <p>Arrays in JavaScript are yet another container that are similar to variables. But they can hold more than one value at a time all under a single name, always separated by commas and stored within <b>square brackets</b>. The values can be accessed by referring to an <b>index number</b></index>. The code above is the easiest way to create a JavaScript Array, also referred to as an array literal.</p>
+            <pre><code><i>    var</i> thisIsAnArray = [item1, item2, item3...];</code></pre>
+            <p>Arrays in JavaScript are yet another container that are similar to variables. But they can hold more than one value at a time all under a single name (like a list), always separated by commas and stored within <b>square brackets</b>. The values can be accessed by referring to an <b>index number</b></index>. The code above is the easiest way to create a JavaScript Array, also referred to as an array literal.</p>
         </section>
         <br>
         <section class="code">
             <a id="loops"></a>
             <h2 class='loops'>Loops...</h2>
             <p>Loops are especially handy when you want to run the same code over and over, each time resulting in a different value. There are many differnt kinds of loops. There are; <br /> <br />
-            <b>for loops:</b>  which loops through a block of code a number of times.         <pre><code><i>    for(... ) {...<br />   };</i></code></pre>
-            <b>for in loops:</b>  which loops through the properties of an object.<pre><code><i>    for(... in... ) {...<br />   };</i></code></pre>
-            <b>while loops:</b>  which execute a block of code, as long as a specified condition is true. <pre><code><i>    while(condition) {...<br />   };</i></code></pre>
-            <b>do/while loops:</b>  these are a variant of the while loop. This loop will execute the code block once, before checking if the condition is true, then it will repeat as long as the condition is true. <pre><code><i>    do {...<br />   }<br />   while(condition);</i></code></pre>
+            <b>for loops:</b>  which loops through a block of code a number of times.         <pre><code><i>    for(statement1; statement 2; statement 3) {code block<br />   };</i></code></pre>
+            <b>for in loops:</b>  which loops through the properties of an object.<pre><code><i>    for(property in object ) {code block<br />   };</i></code></pre>
+            <b>while loops:</b>  which execute a block of code, as long as a specified condition is true. <pre><code><i>    while(condition) {code block<br />   };</i></code></pre>
+            <b>do/while loops:</b>  these are a variant of the while loop. This loop will execute the code block once, before checking if the condition is true, then it will repeat as long as the condition is true. <pre><code><i>    do {code block<br />   }<br />   while(condition);</i></code></pre>
             </p>
         </section>
         <br>
@@ -71,10 +71,10 @@
             <a id="conditionals"></a>
             <h2 class='conditionals'>Conditional Statements...</h2>
             <p>Often when code is written, you want to perform different actions for different decisions. You can use conditional statements, in your code to do this. In JavaScript there are the following types of conditional statements; <br /> <br />
-            <b>if statements:</b>  these are used to specify a block of code to be executed, if a specified condition is true. <pre><code><i>    if (condition) {...<br />  };</i></code></pre>
-            <b>else statement:</b>  this is used to specify a block of code to be executed , if the same condition is false. <pre><code><i>    if (condition) {...<br />    } else {...<br />  };</i></code></pre>
-            <b>else if:</b>  this is used to specify a new condition if the first condition is false. <pre><code><i>    if (condition1){...<br />    } else if (condition2) {...<br />    } else {...<br />  };</i></code></pre>
-            <b>switch statements:</b>  this is a different kind of conditional statement compared to the if,else if,else statements. The switch expression is evaluated once, the value of each expression is compared with the values of each case, if there is a match the associated block of code is executed. A <b>break</b> keyword is used to break out of the switch block once a condition is met (these can save a lot of time because it ignores the execution of the rest of the code in the switch block), it is not necessary to break the last case in a switch block, the block ends there anyway. Also a <b>default</b> keyword is used to specify the code to run if there is no match. The default case does not have to the last case in a switch block, if it's not the last case it must be followed with a break keyword. <pre><code><i> switch (... ) {<br />  case: <br />  break; <br />  case: <br />  break;<br />  default: <br />};</i></code></pre>
+            <b>if statements:</b>  these are used to specify a block of code to be executed, if a specified condition is true. <pre><code><i>    if (condition) {code block<br />  };</i></code></pre>
+            <b>else statement:</b>  this is used to specify a block of code to be executed , if the same condition is false. <pre><code><i>    if (condition) {code block<br />    } else {code block if false<br />  };</i></code></pre>
+            <b>else if:</b>  this is used to specify a new condition if the first condition is false. <pre><code><i>    if (condition1){first code block if condition condition 1 is true <br />    } else if (condition2) {second code block if condition 1 is false <br />    } else {code to be executed if condition 1 and condition 2 is false<br />  };</i></code></pre>
+            <b>switch statements:</b>  this is a different kind of conditional statement compared to the if,else if,else statements. The switch expression is evaluated once, the value of each expression is compared with the values of each case, if there is a match the associated block of code is executed. A <b>break</b> keyword is used to break out of the switch block once a condition is met (these can save a lot of time because it ignores the execution of the rest of the code in the switch block), it is not necessary to break the last case in a switch block, the block ends there anyway. Also a <b>default</b> keyword is used to specify the code to run if there is no match. The default case does not have to be the last case in a switch block, if it's not the last case it must be followed with a break keyword. <pre><code><i> switch (expression) {<br />  case: 1 <br />  code block<br />  break; <br />  case: 2 <br />  code block <br />  break;<br />  default: <br />  code block<br />};</i></code></pre>
             </p>
         </section>
         <br>
@@ -84,6 +84,7 @@
     <sidenav class="sidenav"></sidenav>
     <h1 class="animated pulse">     };</h1>
         <div class="sidenav">
+            <section id="sideBarTitle">Helpful Links...</section>
             <br>
             <a href="https://w3schools.com/" target ="blank">W3School</a>
             <br>
@@ -93,14 +94,14 @@
             <br>
             <a href="https://freecodecamp.org/" target="blank">FreeCodeCamp</a>
             <br>
-            <a href="https://www.elevenfifty.org/" target="blank">elevenFifty Academy</a>
+            <a href="https://www.elevenfifty.org/" target="blank">ElevenFifty Academy</a>
         </div>
-        <article><a href="https://blog.indorse.io/indorse-javascript-coding-752877ad3524" target="blank"><b>Link</b></a>
+        <article><a href="https://blog.indorse.io/indorse-javascript-coding-752877ad3524" target="blank"><b>Link to Medium Article</b></a>
             <p> And lastly here's a great article on some of the top JavaScript resources, from <a href="https://medium.com">Medium</a> its includes articles, videos, and GitHub repositories.</p>
         </article>
 <!-- footer with icon that links to my github -->
     <footer>
-        <p>made by justisGipson--2018<a href="https://github.com/justisGipson" target="blank" class="fab fa-github"></a>
+        <p>made by justisGipson -- 2018 -- GitHub:<a href="https://github.com/justisGipson" target="blank" class="fab fa-github"></a>
         </p>
     </footer>
 
